@@ -65,12 +65,6 @@ public class PixelPropsUtils {
             "in.startv.hotstar"
     };
 
-    private static final String[] packagesToKeep = {
-        "com.google.android.GoogleCamera",
-	"com.google.android.dialer",
-        "com.google.ar.core",
-        "com.google.android.apps.recorder"
-
     private static final Map<String, Object> propsToChangeROG1;
     private static final String[] packagesToChangeROG1 = {
             "com.dts.freefireth",
@@ -117,7 +111,8 @@ public class PixelPropsUtils {
         "com.google.android.MTCL83",
         "com.google.android.UltraCVM",
         "com.google.android.apps.cameralite",
-        "com.google.ar.core"
+        "com.google.ar.core",
+        "com.google.android.apps.recorder"
     };
 
     // Codenames for currently supported Pixels by Google
